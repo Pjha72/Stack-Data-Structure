@@ -104,53 +104,62 @@ Expected Auxiliary Space: O(1) for both push() and pop().
 <p>Solution : - https://practice.geeksforgeeks.org/viewSol.php?subId=f50326c2e0308643e7611d784ebadc7d&pid=700207&user=pjha2186</p>
 </div>
 <div>
-<h1>Q1 : Reverse The String by Using Stack</h1>
-<p>You are given a string S, the task is to reverse the string using stack.</p>
+<h1>Q5 : Sort a stack</h1>
+<p>Given a stack, the task is to sort it such that the top of the stack has the greatest element.</p>
 <p>Example 1:
 <br>
 <br>
-Input: S="GeeksforGeeks"
+Input:
 <br>
-Output: skeeGrofskeeG
+Stack: 3 2 1
+<br>
+Output: 3 2 1
 <br>
 <br>
-Expected Time Complexity: O(N)
+Expected Time Complexity: O(N*N)
 <br>
-Expected Auxiliary Space: O(N)
+Expected Auxilliary Space: O(N) recursive.
 </p>
-<p>Solution : - https://practice.geeksforgeeks.org/problems/reverse-a-string-using-stack/1?page=1&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Stack&sortBy=submissions</p>
+<p>Solution : - https://practice.geeksforgeeks.org/viewSol.php?subId=9f40a102fb39bb5ceb2ff03d39e52638&pid=700469&user=pjha2186</p>
 </div>
 <div>
-<h1>Q1 : Reverse The String by Using Stack</h1>
-<p>You are given a string S, the task is to reverse the string using stack.</p>
+<h1>Q6 : Special Stack</h1>
+<p>Design a data-structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. Your task is to complete all the functions, using stack data-Structure.</p>
 <p>Example 1:
 <br>
 <br>
-Input: S="GeeksforGeeks"
+Input:
 <br>
-Output: skeeGrofskeeG
+Stack: 18 19 29 15 16
+<br>
+Output: 15
 <br>
 <br>
-Expected Time Complexity: O(N)
+Expected Time Complexity: O(N) for getMin, O(1) for remaining all 4 functions.
 <br>
-Expected Auxiliary Space: O(N)
+Expected Auxiliary Space: O(1) for all the 5 functions.
 </p>
-<p>Solution : - https://practice.geeksforgeeks.org/problems/reverse-a-string-using-stack/1?page=1&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Stack&sortBy=submissions</p>
+<p>Solution : - https://practice.geeksforgeeks.org/viewSol.php?subId=d4d5e90beffc3fe491f5f728275c8cf0&pid=700453&user=pjha2186</p>
 </div>
 <div>
-<h1>Q1 : Reverse The String by Using Stack</h1>
-<p>You are given a string S, the task is to reverse the string using stack.</p>
+<h1>Q7 : Delete middle element of a stack</h1>
+<p>Given a stack with push(), pop(), empty() operations, delete the middle of the stack without using any additional data structure.
+Middle: ceil((size_of_stack+1)/2) (1-based index)</p>
 <p>Example 1:
 <br>
 <br>
-Input: S="GeeksforGeeks"
+Input: 
+ <br>
+Stack = {1, 2, 3, 4, 5}
 <br>
-Output: skeeGrofskeeG
+Output:
+ <br>
+ModifiedStack = {1, 2, 4, 5}
 <br>
 <br>
 Expected Time Complexity: O(N)
 <br>
 Expected Auxiliary Space: O(N)
 </p>
-<p>Solution : - https://practice.geeksforgeeks.org/problems/reverse-a-string-using-stack/1?page=1&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Stack&sortBy=submissions</p>
+<p>Solution : - https://practice.geeksforgeeks.org/viewSol.php?subId=fec78de32c123536763362eb10e947f7&pid=700698&user=pjha2186</p>
 </div>
